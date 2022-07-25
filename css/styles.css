@@ -141,7 +141,7 @@ img {
 .logo .link:focus,
 .logo .link:active{
     color: var(--accent-color);
-
+    outline: none;
     transition:color var(--animation);
 }
 .logo-accent {
@@ -180,6 +180,7 @@ img {
 .site-nav .link:active {
     color: var(--accent-color);
     transition: color var(--animation);
+    outline: none;
 }
 .site-nav .link {
     color: var(--primary-text-color);
@@ -220,7 +221,7 @@ img {
 .list-item .link:focus,
 .list-item .link:active {
     color: var(--accent-color);
-
+    outline: none;
     transition: color var(--animation);
 }
 .list-item .link {
@@ -292,7 +293,7 @@ img {
 .btn-hero:focus,
 .btn-hero:active {
     background-color: var(--btncolor-hov);
-
+    outline: none;
     transition:background-color var(--animation);
 }
 
@@ -397,7 +398,7 @@ img {
 .btn-item:active {
     color: var(--main-color);
     background-color: var(--accent-color);
-
+    outline: none;
     transition: color var(--animation), background-color var(--animation);
 }
 .btn-item .current {
@@ -446,7 +447,7 @@ img {
 .project-link:hover,
 .project-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+    outline: none;
     transition: box-shadow var(--animation);
 }
 
@@ -467,6 +468,7 @@ img {
     transition: transform var(--animation);
     transform: translateY(0);
     opacity: 1;
+    outline: none;
 }
 
 
@@ -575,7 +577,7 @@ background-color: var(--accent-color);
 }
 .btn-portfolio-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+    outline: none;
     transition: box-shadow var(--animation);
 }
 .portfolio-project-container {
@@ -604,7 +606,7 @@ background-color: var(--accent-color);
  .contacts-link:focus,
  .contacts-link:active {
     color: var(--accent-color);
-
+    outline: none;
     transition: color var(--animation);
 }
 .contacts-link {
@@ -646,13 +648,13 @@ background-color: var(--accent-color);
 .social-links:focus,
 .social-links:active {
     background-color: var(--accent-color);
-
+    outline: none;
     transition: background-color var(--animation);
 }
 .social-links:hover .social-icon,
 .social-links:focus .social-icon {
     fill: #FFFFFF;
-
+    outline: none;
     transition: fill var(--animation);
 }
 
@@ -697,14 +699,14 @@ background-color: var(--accent-color);
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
     fill: var(--accent-color);
-
+    outline: none;
     transition: fill var(--animation);
     
 }
 .clients-link:hover,
 .clients-link:focus {
     border: 1px solid rgba(33, 150, 243, 1);
-
+    outline: none;
     transition: border var(--animation);
 }
 
@@ -751,14 +753,14 @@ background-color: var(--accent-color);
 .footer-social-links:focus,
 .footer-social-links:active {
     background-color: var(--accent-color);
-
+    outline: none;
     transition: background-color var(--animation);
 }
 .footer-social-links:hover .footer-social-icon,
 .footer-social-links:focus .footer-social-icon {
     fill: var(--main-color);
     background-color: var(--accent-color);
-
+    outline: none;
     transition: fill var(--animation), background-color var(--animation);
 }
 
